@@ -13,7 +13,9 @@ class Fan:
         self.__color = color
 
     # create methods,
-    # set speed
+    def set_speed(self, speed):  # set speed
+        self.__speed = speed
+        
     # set on or off
     # set radius
     # set color
