@@ -37,5 +37,7 @@ class Fan:
     def get_radius(self):  # get radius
         return self.__radius
 
-    # get color
+    def get_color(self):  # get color
+        return self.__color
+    
     # show properties
