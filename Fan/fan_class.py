@@ -40,4 +40,5 @@ class Fan:
     def get_color(self):  # get color
         return self.__color
 
-    # show properties
+    def show(self):  # show properties
+        print(f"Fan properties: {self.__speed}, {self.__is_on}, {self.__radius}, {self.__color}")
