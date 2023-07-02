@@ -15,8 +15,13 @@ class Fan:
     # create methods,
     def set_speed(self, speed):  # set speed
         self.__speed = speed
+
+    def set_is_on(self, is_on):  # set on or off
+        if is_on == "on":
+            self.__is_on = True
+        else:
+            pass
         
-    # set on or off
     # set radius
     # set color
     # get speed
