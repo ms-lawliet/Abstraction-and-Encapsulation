@@ -7,6 +7,7 @@ ui = UserInterface()
 # ask user for values
 name = ui.ask_pet_name()
 animal_type = ui.ask_animal_type()
+age = ui.ask_pet_age()
 
 # create object
 # print out results
