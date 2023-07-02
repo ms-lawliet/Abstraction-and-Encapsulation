@@ -24,8 +24,10 @@ class Fan:
 
     def set_radius(self, radius):  # set radius
         self.__radius = radius
+
+    def set_color(self, color):  # set color
+        self.__color = color
         
-    # set color
     # get speed
     # get status (on or off)
     # get radius
