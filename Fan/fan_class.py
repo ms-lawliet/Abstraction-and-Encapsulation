@@ -21,8 +21,10 @@ class Fan:
             self.__is_on = True
         else:
             pass
+
+    def set_radius(self, radius):  # set radius
+        self.__radius = radius
         
-    # set radius
     # set color
     # get speed
     # get status (on or off)
