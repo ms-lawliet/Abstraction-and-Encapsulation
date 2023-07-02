@@ -8,8 +8,10 @@ class Pet:
     # create methods,
     def set_name(self, name):  # set_name
         self.__name = name
+
+    def set_animal_type(self, animal_type):  # set_animal_type
+        self.__animal_type = animal_type
         
-    # set_animal_type
     # set_age
     # get name
     # get_animal_type
