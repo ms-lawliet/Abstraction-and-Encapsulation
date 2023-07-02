@@ -16,5 +16,5 @@ class Car:
 
     def get_speed(self):   # get speed
         return self.__speed
-    
+
     # show details
