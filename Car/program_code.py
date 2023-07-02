@@ -11,3 +11,7 @@ for i in range(0, 5):
     Car1.show()
 
 # call brake & get speed (5 times)
+for i in range(0, 5):
+    Car1.brake()
+    Car1.get_speed()
+    Car1.show()
