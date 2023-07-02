@@ -27,8 +27,10 @@ class Fan:
 
     def set_color(self, color):  # set color
         self.__color = color
-        
-    # get speed
+
+    def get_speed(self):  # get speed
+        return self.__speed
+    
     # get status (on or off)
     # get radius
     # get color
