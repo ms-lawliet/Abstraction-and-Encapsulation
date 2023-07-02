@@ -10,4 +10,7 @@ animal_type = ui.ask_animal_type()
 age = ui.ask_pet_age()
 
 # create object
+Pet1 = Pet(name, animal_type, age)
+
 # print out results
+print("Pet: " + name + ", Animal type: " + animal_type + ", Age: " + str(age))
