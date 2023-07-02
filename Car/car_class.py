@@ -17,4 +17,5 @@ class Car:
     def get_speed(self):   # get speed
         return self.__speed
 
-    # show details
+    def show(self):   # show details
+        print(f"Car details: {self.__year_model} {self.__make}, {self.__speed} m/s")
