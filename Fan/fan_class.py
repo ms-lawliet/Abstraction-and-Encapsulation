@@ -30,8 +30,10 @@ class Fan:
 
     def get_speed(self):  # get speed
         return self.__speed
+
+    def get_is_on(self):  # get status (on or off)
+        return self.__is_on
     
-    # get status (on or off)
     # get radius
     # get color
     # show properties
