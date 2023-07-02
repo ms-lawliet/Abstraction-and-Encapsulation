@@ -4,9 +4,11 @@ class Pet:
         self.__name = name
         self.__animal_type = animal_type
         self.__age = age
-        
+
     # create methods,
-    # set_name
+    def set_name(self, name):  # set_name
+        self.__name = name
+        
     # set_animal_type
     # set_age
     # get name
