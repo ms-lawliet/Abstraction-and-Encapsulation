@@ -6,6 +6,12 @@ class Fan:
     fast = 3
 
     # create constructor
+    def __init__(self, speed=slow, is_on=False, radius=5, color="Blue"):
+        self.__speed = speed
+        self.__is_on = is_on
+        self.__radius = radius
+        self.__color = color
+
     # create methods,
     # set speed
     # set on or off
