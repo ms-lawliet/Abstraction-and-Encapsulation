@@ -6,7 +6,10 @@ class Car:
         self.__speed = speed
 
     # create methods
-    # accelerate
+    def accelerate(self):   # accelerate
+        self.__speed = self.__speed + 5
+        return self.__speed
+    
     # brake
     # get speed
     # show details
