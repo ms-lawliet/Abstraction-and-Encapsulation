@@ -20,5 +20,6 @@ class Pet:
 
     def get_animal_type(self):  # get_animal_type
         return self.__animal_type
-    
-    # get_age
+
+    def get_age(self):  # get_age
+        return self.__age
