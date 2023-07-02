@@ -33,7 +33,9 @@ class Fan:
 
     def get_is_on(self):  # get status (on or off)
         return self.__is_on
-    
-    # get radius
+
+    def get_radius(self):  # get radius
+        return self.__radius
+
     # get color
     # show properties
