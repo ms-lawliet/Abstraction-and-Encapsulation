@@ -7,4 +7,6 @@ class UserInterface:   # create class for user interface
         animal_type = input("Enter animal type: ")
         return animal_type
 
-    # pet age
+    def ask_pet_age(self):  # pet age
+        age = float(input("Enter pet age: "))
+        return age
