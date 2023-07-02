@@ -39,5 +39,5 @@ class Fan:
 
     def get_color(self):  # get color
         return self.__color
-    
+
     # show properties
