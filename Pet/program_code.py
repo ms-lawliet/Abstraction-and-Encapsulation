@@ -1,3 +1,5 @@
+from colorama import Back
+
 # import pet and user interface class
 from pet_class import Pet
 from user_interface import UserInterface
@@ -13,4 +15,4 @@ age = ui.ask_pet_age()
 Pet1 = Pet(name, animal_type, age)
 
 # print out results
-print("Pet name: " + name + ", Animal type: " + animal_type + ", Age: " + str(age))
+print(Back.BLACK + "Pet name: " + name + ", Animal type: " + animal_type + ", Age (in years): " + str(age) + Back.RESET)
