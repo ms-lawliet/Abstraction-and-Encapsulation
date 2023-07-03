@@ -13,4 +13,4 @@ age = ui.ask_pet_age()
 Pet1 = Pet(name, animal_type, age)
 
 # print out results
-print("Pet: " + name + ", Animal type: " + animal_type + ", Age: " + str(age))
+print("Pet name: " + name + ", Animal type: " + animal_type + ", Age: " + str(age))

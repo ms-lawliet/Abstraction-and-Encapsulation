@@ -1,4 +1,5 @@
 import tkinter as tk
+import program_code
 
 root = tk.Tk()
 
@@ -12,4 +13,5 @@ def show_image():
 
 
 show_image()
+
 root.mainloop()
