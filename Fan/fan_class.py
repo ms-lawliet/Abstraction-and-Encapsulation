@@ -41,4 +41,5 @@ class Fan:
         return self.__color
 
     def show(self):  # show properties
-        print(f"Fan properties: {self.__speed}, {self.__is_on}, {self.__radius}, {self.__color}")
+        results = f"Fan properties: \nFan speed: {self.__speed}, \nStatus: {self.__is_on}, \nRadius:{self.__radius}, \nColor:{self.__color}"
+        return results
