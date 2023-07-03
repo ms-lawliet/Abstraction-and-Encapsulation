@@ -12,11 +12,7 @@ root.title("TestFan")
 Fan1 = Fan(Fan.fast, "on", 10, "Yellow")
 Fan2 = Fan(Fan.medium, "off", 5)
 
-# call methods
-Fan1.show()
-Fan2.show()
-
-# add design
+# call objects and add design
 lbl1 = ctk.CTkLabel(root, text=Fan1.show(), font=ctk.CTkFont(family="Courier New", size=24, weight="bold"))
 lbl1.pack(padx=10, pady=(20, 20))
 lbl1.configure(text_color="yellow")
